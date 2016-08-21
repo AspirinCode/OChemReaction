@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/reactant"
+        android:layout_weight="1"
+        android:src="@drawable/alkene"
+        android:clickable="true" />
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/reagent"
+        android:layout_weight="1"
+        android:src="@drawable/bh3_naoh_h2o2"
+        android:clickable="true" />
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/product"
+
+
+        android:layout_weight="1"
+        android:src="@drawable/ketone_aldehyde"
+        android:clickable="true"  />
+</LinearLayout>
